@@ -32,10 +32,12 @@ fun Article(article: Article, onItemClick: (Article) -> Unit) {
         .clickable {
             onItemClick(article)
         }) {
-        Row(modifier = Modifier.height(120.dp)) {
+        Column(modifier = Modifier.fillMaxSize()) {
             article.urlToImage?.let { ArticleImage(urlToImage = it, title = article.title) }
             Column(
-                modifier = Modifier.fillMaxSize(),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(8.dp),
                 verticalArrangement = Arrangement.Center
             ) {
                 article.title?.let { ArticleTitle(title = it) }
@@ -52,7 +54,8 @@ fun ArticleImage(urlToImage: String, title: String?) {
         contentDescription = title,
         contentScale = ContentScale.Crop,
         modifier = Modifier
-            .width(150.dp)
+            .fillMaxWidth()  // Ensures the image takes up the full width of its parent
+            .height(200.dp)  // Adjust the height as needed
     )
 }
 

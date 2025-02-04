@@ -62,6 +62,7 @@ class NewsViewModel @Inject constructor(
 
     private fun fetchNewsWithoutFilter() {
         viewModelScope.launch {
+
             pager.flow.cachedIn(viewModelScope)
                 .map {
                     it.filter { article ->
