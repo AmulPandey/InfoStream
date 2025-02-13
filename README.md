@@ -13,7 +13,7 @@
 - **Network Connectivity Handling**: Includes checks for network connectivity, with proper error handling when offline.
 
 ## ScreenShot
-![screenshot](https://github.com/AmulPandey/InfoStream/blob/main/screenshot.jpeg)
+![screenshot](https://github.com/AmulPandey/InfoStream/blob/main/app/src/main/screenshot.jpeg)
 
 ## **Preview**
 
