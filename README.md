@@ -21,7 +21,8 @@ https://github.com/user-attachments/assets/dda2f28b-38b9-4e62-88c3-6d23e8600e54
 
 ## Technologies Used
 
-- **Android SDK** (Java)
+- **Android SDK** (Kotlin)
+- **Jetpack Compose**: Build UI using compose .
 - **Paging 3 Library**: To load news articles in a paginated fashion, improving app performance.
 - **Retrofit**: For network calls to fetch news from external APIs.
 - **Room Database**: For storing saved articles and news data locally.
