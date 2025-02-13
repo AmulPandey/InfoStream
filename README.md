@@ -15,6 +15,10 @@
 ## ScreenShot
 ![screenshot](https://github.com/AmulPandey/InfoStream/blob/main/screenshot.jpeg)
 
+## **Preview**
+
+https://github.com/user-attachments/assets/dda2f28b-38b9-4e62-88c3-6d23e8600e54
+
 ## Technologies Used
 
 - **Android SDK** (Java)
